@@ -4,12 +4,6 @@ script.type = 'text/javascript';
 document.getElementsByTagName('head')[0].appendChild(script);
 
 /*
-console.log(location.href); //현재 페이지 출력
-
-var anchor = document.getElementById("myAnchor");
-var result = anchor.href;
-console.log('result');
-
         
         $(".HeaderLogo").click(function(){document.location.href='http://127.0.0.1:5500/html/Home.html'})
         $(".MusicTalkBtn").click(function(){document.location.href='http://127.0.0.1:5500/html/MusicTalk.html'})

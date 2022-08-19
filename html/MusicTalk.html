@@ -63,6 +63,8 @@
     padding: 15px;
     cursor: pointer;
     font-weight: 600;
+    text-decoration: none;
+    color: black;
 }
 
 /*말풍선 만들어주는*/
@@ -83,6 +85,7 @@
 
 .TalkBox:hover{
     color: beige;
+    text-decoration: none;
 }
 
 .MusicTalkBottomBtn{
@@ -224,6 +227,67 @@
 .FooterSamllText{
     font-size: 13px;
 }
+
+/*link css*/
+#first{
+    color: black;
+    text-decoration: none;
+}
+
+#first:hover{
+    color: skyblue;
+    text-decoration: none;
+}
+
+#second{
+    color: black;
+    text-decoration: none;
+}
+
+#second:hover{
+    color: skyblue;
+    text-decoration: none;
+}
+
+#three{
+    color: black;
+    text-decoration: none;
+}
+
+#three:hover{
+    color: skyblue;
+    text-decoration: none;
+}
+
+#four{
+    color: black;
+    text-decoration: none;
+}
+
+#four:hover{
+    color: skyblue;
+    text-decoration: none;
+}
+
+#five{
+    color: black;
+    text-decoration: none;
+}
+
+#five:hover{
+    color: skyblue;
+    text-decoration: none;
+}
+
+#six{
+    color: black;
+    text-decoration: none;
+}
+
+#six:hover{
+    color: skyblue;
+    text-decoration: none;
+}
     </style>
 
     <div class ="container show-fl">
@@ -234,17 +298,17 @@
                 <div class="HeaderDiv">
                     <div class="HeaderFirstDiv">
                         <div class="HeaderLogo">
-                            <a href="Home.html#HomePage">Awww</a>
+                            <a href="Home.html#HomePage" id="first">Awww</a>
                         </div>
                         <div class="HeaderBtnDiv">
                             <button type='button' class="MusicTalkBtn"> 
-                                <a href="MusicTalk.html#MusicTalkPage">MusicTalk</a>
+                                <a href="MusicTalk.html#MusicTalkPage" id="second">MusicTalk</a>
                             </button>
                             <button type='button' class="PlayListBtn">
-                                <a href="PlayList.html#PlayListPage">PlayList</a>
+                                <a href="PlayList.html#PlayListPage" id="three">PlayList</a>
                             </button>
                             <button type='button' class="MyPageBtn">
-                                <a href="MyPage.html#MyPagePage">MyPage</a>
+                                <a href="MyPage.html#MyPagePage" id="four">MyPage</a>
                             </button>
                         </div>
                         <div class="SearchDiv">
@@ -254,10 +318,10 @@
                     </div>
                     <div class="LoginAndSignUpDiv">
                         <button class="LoginBtn">
-                            <a href="Login.html#LoginPage">Login</a>
+                            <a href="Login.html#LoginPage" id="five">Login</a>
                         </button>
                         <button class="SignUpBtn">
-                            <a href="SignUp.html#SignUpPage">SignUp</a>
+                            <a href="SignUp.html#SignUpPage" id="six">SignUp</a>
                         </button>
                     </div>
                 </div>
@@ -287,8 +351,8 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+                    <h5 class="modal-title" id="exampleModalLabel">Music Talk - Question</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                     <textarea type="text" id="title" style="width:450px;  height: 30px"></textarea>
