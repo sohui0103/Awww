@@ -363,23 +363,29 @@
 
     <script src="/JS/MovePage.js"></script>
     <script >
-        
     $('#re').click(function(){
    var lastPage =Math.ceil(30/10) //전자 : 총 계시물 갯수 ,후자 :한 페이지에 보이는 숫자 
  
   
    var page=[]
    for (let i = 1; i <= lastPage; i++) {
-    var plus=`<button type="button" class="PageNum" id="page">${i}</button>`
+    var plus=`<button type="button" class="PageNum" id="page${i}">${i}</button>`
     page.push(plus)   
     
     
     
 }
 $('#pages').html(page)
+ 
+$('.PageNum').click(function(){
+    goPage();
     
+})
+
   
 })
+
+
 
    
     </script>
